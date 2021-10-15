@@ -191,7 +191,7 @@ Per spostarsi su quel ramo
 
 per vedere tutti i branch esistenti per la repo:
 
-    git branch
+    git branch -a
 
 In ultimo per spostarsi su un branch mentre lo si crea, possiamo fare:
 
