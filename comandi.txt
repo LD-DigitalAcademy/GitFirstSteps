@@ -1,0 +1,80 @@
+   2 mkdir MergiatiQuesto
+   3 cd MergiatiQuesto
+   4 git init
+   5 dir
+   6 echo "prima riga" >> main.txt
+   7 cat .\main.txt
+   8 git status
+   9 git add .\main.txt
+  10 git status
+  11 git commit -m "inserita prima riga"
+  12 git log
+  13 git remote add origin https://github.com/LD-DigitalAcademy/MergiatiQuesto.git
+  14 git remote -v
+  15 git branch -M main
+  16 git log
+  17 git push -u origin main
+  18 git branch -a
+  19 git branch nuoveFunz
+  20 git branch -a
+  21 echo "seconda riga" >> main.txt
+  22 dir
+  23 cat .\main.txt
+  24 git status
+  25 git add .\main.txt
+  26 git status
+  27 git commit -m "aggiunta seconda riga"
+  28 git log
+  29 git log
+  30 git push
+  31 git branch
+  32 git branch -a
+  33 git status
+  34 git log
+  35 git checkout nuoveFunz
+  36 git log
+  37 git checkout main
+  38 git log
+  39 git checkout 2da4f44171f8985c770ebf5244e982a6b5063f61
+  40 git log
+  41 git checkout main
+  42 git log
+  43 git log
+  44 git status
+  45 git branch
+  46 git checkout nuoveFunz
+  47 git branch
+  48 git branch -a
+  49 cat main.txt
+  50 echo "nuovaFunz1" >> main.txt
+  51 cat main.txt
+  52 git status
+  53 git add main.txt
+  54 git status
+  55 git commit -m "nuova funzionalita aggiunta"
+  56 git log
+  57 git push
+  58 git push --set-upstream origin nuoveFunz
+  59 git branch -a
+  60 git log
+  61 cat .\main.txt
+  62 git checkout main
+  63 cat .\main.txt
+  64 git log
+  65 git merge nuoveFunz
+  66 dir
+  67 vim .\main.txt
+  68 dir
+  69 git mergetool
+  70 cat .\main.txt
+  71 git status
+  72 git commit
+  73 git status
+  74 dir
+  75 cat .\main.txt.orig
+  76 cat .\main.txt
+  77 git log
+  78 git push
+  79 git log
+  80 cat .\main.txt
+  
