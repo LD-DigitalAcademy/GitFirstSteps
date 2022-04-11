@@ -172,7 +172,7 @@ oppure inserire un altro codice per muoversi a quel commit.
 
 
 ## 2.6 Branches
-![enter image description here](https://coderefinery.github.io/git-intro/img/octopus.jpeg)
+![enter image description here](https://coderefinery.github.io/git-intro/_images/octopus.jpeg)
 
 
 Rappresentano timeline parallale di commit. 
